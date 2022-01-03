@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>277</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: #f6e58d;</string>
+  </property>
+  <widget class="QComboBox" name="selectLang">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;이순신 돋움체 M&quot;;
+
+background-color: rgb(255, 255, 255);
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>한국어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>영어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>일본어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>중국어-간체</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>중국어-번체</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>베트남어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>인도네시아어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>태국어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>독일어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>러시아어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>스페인어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>이탈리아어</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>프랑스어</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="langCheck">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>200</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;이순신 돋움체 M&quot;;
+border-radius: 20px;
+background-color: #4b7bec;
+color:  rgb(255,255,255);</string>
+   </property>
+   <property name="text">
+    <string>확인</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>30</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;이순신 돋움체 M&quot;;
+color: #4b7bec;</string>
+   </property>
+   <property name="text">
+    <string>언어 선택</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
